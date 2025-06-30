@@ -1,0 +1,195 @@
+# 1e-4 / CE Loss / Resnet34 + UNet / Con Scheduler 25 steps
+Epoch -1
+Accuracy: 00.92%, Mean IoU: 0.0016
+Epoch 0
+Accuracy: 18.01%, Mean IoU: 0.0616
+Epoch 10
+Accuracy: 56.60%, Mean IoU: 0.2789
+Epoch 20
+Accuracy: 67.72%, Mean IoU: 0.3270
+Epoch 30
+Accuracy: 72.23%, Mean IoU: 0.3494
+Epoch 40
+Accuracy: 73.71%, Mean IoU: 0.3603
+Epoch 50
+Accuracy: 73.83%, Mean IoU: 0.3610
+
+# 1e-4 / Dice Loss + CE Loss / Resnet34 + UNet  / Con Scheduler  25 steps
+Epoch -1
+Accuracy: 0.82%, Mean IoU: 0.0005, Mean Dice: 0.0009
+Epoch 0
+Accuracy: 7.71%, Mean IoU: 0.0442, Mean Dice: 0.0783
+Epoch 10
+Accuracy: 61.75%, Mean IoU: 0.3187, Mean Dice: 0.4472
+Epoch 20
+Accuracy: 72.05%, Mean IoU: 0.3467, Mean Dice: 0.4791
+Epoch 30
+Accuracy: 74.78%, Mean IoU: 0.3766, Mean Dice: 0.5126
+Epoch 40
+Accuracy: 76.53%, Mean IoU: 0.3888, Mean Dice: 0.5257
+Epoch 50
+Accuracy: 76.90%, Mean IoU: 0.3945, Mean Dice: 0.5308
+
+# 1e-4 / Dice Loss + CE Loss / Resnet34 + UNet / Additional Transforms / Con Scheduler  25 steps
+Epoch -1
+Accuracy: 1.35%, Mean IoU: 0.0033, Mean Dice: 0.0065
+Epoch 0
+Accuracy: 7.39%, Mean IoU: 0.0509, Mean Dice: 0.0884
+Epoch 10
+Accuracy: 36.93%, Mean IoU: 0.2325, Mean Dice: 0.3468
+Epoch 20
+Accuracy: 55.60%, Mean IoU: 0.2803, Mean Dice: 0.4067
+Epoch 30
+Accuracy: 54.98%, Mean IoU: 0.2784, Mean Dice: 0.4041
+Epoch 40
+Accuracy: 55.11%, Mean IoU: 0.2804, Mean Dice: 0.4062
+Epoch 50
+Accuracy: 55.61%, Mean IoU: 0.2853, Mean Dice: 0.4113
+
+# 1e-4 / Dice Loss + CE Loss / Resnet34 + UNet / Custom training split 85%  / Con Scheduler  25 steps
+Epoch -1
+Accuracy: 2.80%, Mean IoU: 0.0027, Mean Dice: 0.0054
+Epoch 0
+Accuracy: 20.03%, Mean IoU: 0.1000, Mean Dice: 0.1673
+Epoch 10
+Accuracy: 63.51%, Mean IoU: 0.3123, Mean Dice: 0.4445
+Epoch 20
+Accuracy: 74.47%, Mean IoU: 0.4093, Mean Dice: 0.5465
+Epoch 30
+Accuracy: 78.52%, Mean IoU: 0.4633, Mean Dice: 0.5967
+Epoch 40
+Accuracy: 78.53%, Mean IoU: 0.4705, Mean Dice: 0.6046
+Epoch 50
+Accuracy: 79.52%, Mean IoU: 0.4893, Mean Dice: 0.6207
+
+# 1e-4 / Dice Loss + CE Loss / Resnet34 + UNet / Custom training split 85% / Sin Scheduler
+Epoch -1
+Accuracy: 0.78%, Mean IoU: 0.0026, Mean Dice: 0.0051
+Epoch 0
+Accuracy: 8.19%, Mean IoU: 0.0909, Mean Dice: 0.1461
+Epoch 10
+Accuracy: 57.63%, Mean IoU: 0.2957, Mean Dice: 0.4268
+Epoch 20
+Accuracy: 65.23%, Mean IoU: 0.3181, Mean Dice: 0.4533
+Epoch 30
+Accuracy: 81.83%, Mean IoU: 0.4772, Mean Dice: 0.6093
+Epoch 40
+Accuracy: 84.71%, Mean IoU: 0.5134, Mean Dice: 0.6365
+Epoch 50
+Accuracy: 86.86%, Mean IoU: 0.5237, Mean Dice: 0.6487
+
+# 2e-4 / Dice Loss + CE Loss / Resnet34 + UNet / Custom training split 85% / Sin Scheduler
+Epoch -1
+Accuracy: 1.57%, Mean IoU: 0.0022, Mean Dice: 0.0042
+Epoch 0
+Accuracy: 21.69%, Mean IoU: 0.0848, Mean Dice: 0.1395
+Epoch 10
+Accuracy: 71.15%, Mean IoU: 0.3359, Mean Dice: 0.4693
+Epoch 20
+Accuracy: 81.69%, Mean IoU: 0.4515, Mean Dice: 0.5806
+Epoch 30
+Accuracy: 83.34%, Mean IoU: 0.4499, Mean Dice: 0.5763
+Epoch 40
+Accuracy: 87.78%, Mean IoU: 0.5403, Mean Dice: 0.6605
+Epoch 50
+Accuracy: 89.41%, Mean IoU: 0.5624, Mean Dice: 0.6757
+
+# 2e-4 / Dice Loss + CE Loss / Resnet34 + DeepLabV3 / Custom training split 85% / Sin Scheduler
+Epoch -1
+Accuracy: 1.98%, Mean IoU: 0.0038, Mean Dice: 0.0075
+Epoch 0
+Accuracy: 27.70%, Mean IoU: 0.1807, Mean Dice: 0.2859
+Epoch 10
+Accuracy: 80.31%, Mean IoU: 0.4510, Mean Dice: 0.5781
+Epoch 20
+Accuracy: 85.48%, Mean IoU: 0.4903, Mean Dice: 0.6152
+Epoch 30
+Accuracy: 86.00%, Mean IoU: 0.5160, Mean Dice: 0.6412
+Epoch 40
+Accuracy: 88.54%, Mean IoU: 0.5497, Mean Dice: 0.6663
+Epoch 50
+Accuracy: 89.60%, Mean IoU: 0.5606, Mean Dice: 0.6739
+
+# 2e-4 / Dice Loss + CE Loss / Resnet34 + DeepLabV3 / Sin Scheduler
+Epoch -1
+Accuracy: 0.56%, Mean IoU: 0.0013, Mean Dice: 0.0025
+Epoch 0
+Accuracy: 23.06%, Mean IoU: 0.1453, Mean Dice: 0.2341
+Epoch 10
+Accuracy: 80.02%, Mean IoU: 0.3947, Mean Dice: 0.5269
+Epoch 20
+Accuracy: 84.58%, Mean IoU: 0.4653, Mean Dice: 0.5918
+Epoch 30
+Accuracy: 86.66%, Mean IoU: 0.4851, Mean Dice: 0.6084
+Epoch 40
+Accuracy: 87.10%, Mean IoU: 0.5014, Mean Dice: 0.6259
+Epoch 50
+Accuracy: 86.28%, Mean IoU: 0.4838, Mean Dice: 0.6071
+
+# 2e-4 / Dice Loss + CE Loss / Resnet34 + DeepLabV3 / Custom training split 85% / 100 Epochs
+Epoch -1
+Accuracy: 31.01%, Mean IoU: 0.0185, Mean Dice: 0.0280
+Epoch 0
+Accuracy: 35.98%, Mean IoU: 0.1955, Mean Dice: 0.3048
+Epoch 10
+Accuracy: 80.49%, Mean IoU: 0.4492, Mean Dice: 0.5815
+Epoch 20
+Accuracy: 84.89%, Mean IoU: 0.4837, Mean Dice: 0.6139
+Epoch 30
+Accuracy: 86.22%, Mean IoU: 0.5112, Mean Dice: 0.6358
+Epoch 40
+Accuracy: 89.53%, Mean IoU: 0.5685, Mean Dice: 0.6829
+Epoch 50
+Accuracy: 89.82%, Mean IoU: 0.5699, Mean Dice: 0.6827
+Epoch 60
+Accuracy: 84.15%, Mean IoU: 0.4577, Mean Dice: 0.5859
+Epoch 70
+Accuracy: 89.63%, Mean IoU: 0.5635, Mean Dice: 0.6806
+Epoch 80
+Accuracy: 89.91%, Mean IoU: 0.5701, Mean Dice: 0.6881
+Epoch 90
+Accuracy: 90.14%, Mean IoU: 0.5734, Mean Dice: 0.6899
+Epoch 100
+Accuracy: 90.74%, Mean IoU: 0.5877, Mean Dice: 0.6996
+
+# 2e-4 / Dice Loss + CE Loss / Resnet34 + DeepLabV3 / Custom training split 85% / 100 Epochs/ Scheduler
+Epoch -1
+Accuracy: 30.63%, Mean IoU: 0.0186, Mean Dice: 0.0288
+Epoch 0
+Accuracy: 36.37%, Mean IoU: 0.2018, Mean Dice: 0.3143
+Epoch 10
+Accuracy: 82.64%, Mean IoU: 0.4810, Mean Dice: 0.6060
+Epoch 20
+Accuracy: 87.58%, Mean IoU: 0.5116, Mean Dice: 0.6272
+Epoch 30
+Accuracy: 87.46%, Mean IoU: 0.5374, Mean Dice: 0.6587
+Epoch 40
+Accuracy: 89.41%, Mean IoU: 0.5600, Mean Dice: 0.6749
+Epoch 50
+Accuracy: 90.04%, Mean IoU: 0.5686, Mean Dice: 0.6818
+Epoch 60
+Accuracy: 90.00%, Mean IoU: 0.5704, Mean Dice: 0.6836
+Epoch 70
+Accuracy: 90.28%, Mean IoU: 0.5736, Mean Dice: 0.6854
+Epoch 80
+Accuracy: 90.26%, Mean IoU: 0.5735, Mean Dice: 0.6852
+Epoch 90
+Accuracy: 90.16%, Mean IoU: 0.5725, Mean Dice: 0.6848
+Epoch 100
+Accuracy: 90.25%, Mean IoU: 0.5726, Mean Dice: 0.6849
+
+# 1e-4 / Dice Loss + CE Loss / Resnet34 + UNet / Sin Scheduler
+Epoch -1
+Accuracy: 14.70%, Mean IoU: 0.0096, Mean Dice: 0.0168
+Epoch 0
+Accuracy: 13.71%, Mean IoU: 0.0678, Mean Dice: 0.1164
+Epoch 10
+Accuracy: 43.03%, Mean IoU: 0.2143, Mean Dice: 0.3228
+Epoch 20
+Accuracy: 68.75%, Mean IoU: 0.3083, Mean Dice: 0.4347
+Epoch 30
+Accuracy: 79.36%, Mean IoU: 0.3663, Mean Dice: 0.4951
+Epoch 40
+Accuracy: 85.48%, Mean IoU: 0.4512, Mean Dice: 0.5769
+Epoch 50
+Accuracy: 75.41%, Mean IoU: 0.3131, Mean Dice: 0.4320

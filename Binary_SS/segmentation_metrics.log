@@ -1,0 +1,22 @@
+Epoch 0
+Accuracy: 90.67%, Dice: 0.6862, IoU: 0.5288
+Epoch 10
+Accuracy: 96.15%, Dice: 0.8911, IoU: 0.8045
+Epoch 20
+Accuracy: 96.63%, Dice: 0.9040, IoU: 0.8260
+Epoch 30
+Accuracy: 97.14%, Dice: 0.9204, IoU: 0.8532
+Epoch 40
+Accuracy: 97.26%, Dice: 0.9232, IoU: 0.8580
+Epoch 50
+Accuracy: 97.49%, Dice: 0.9308, IoU: 0.8711
+Epoch 60
+Accuracy: 97.55%, Dice: 0.9316, IoU: 0.8725
+Epoch 70
+Accuracy: 97.55%, Dice: 0.9330, IoU: 0.8748
+Epoch 80
+Accuracy: 97.60%, Dice: 0.9342, IoU: 0.8769
+Epoch 90
+Accuracy: 97.75%, Dice: 0.9383, IoU: 0.8840
+Epoch 100
+Accuracy: 97.63%, Dice: 0.9352, IoU: 0.8787
