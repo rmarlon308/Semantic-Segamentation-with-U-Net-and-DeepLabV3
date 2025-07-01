@@ -92,7 +92,7 @@ To boost segmentation performance, we explored the following strategies:
 - Combine **Cross-Entropy + Dice Loss** to better handle small or thin objects.
 - Expand the training set to **85% of total images** (instead of the default ~50%).
 - Replace U-Net with **DeepLabV3**, which provides stronger context modeling.
-- Add a **learning rate scheduler** starting at epoch 80 to refine training.
+- Add a **learning rate scheduler** starting at epoch 30 to refine training.
 
 ---
 
